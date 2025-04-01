@@ -102,5 +102,5 @@ pandoc --reference-doc template.docx -s input.md  -o output.docx
 1. 有序列表和无序列表可以基于模板改动项目符号，老实说这是我误打误撞搞出来的😂……目前自己都没能复现，所以大家不想折腾，还是基于本模板改动，且用且珍惜（如果有知道怎么复现的，欢迎指教🙏）。
 2. 有序列表和无序列表的行间距调整：每个列表项的间距与【正文】样式的行间距有关，此外列表项的子文本段落也是正文样式而不是【正文文本样式】（一般段落其实是【First Paragraph】、【正文文本】样式），所以需要调整列表行间距而改动【正文】样式是不太影响正文的（不过需要注意【First Paragraph】、【正文文本】样式都是基于【正文】样式改动的。为了让列表更美观，我把【正文】样式设置为1.5倍行距，不设置段前和段后距离，【First Paragraph】、【正文文本】会设置段前和段后距离
 ## 参考
-https://github.com/Achuan-2/pandoc_word_template
-https://zhuanlan.zhihu.com/p/672376543?theme=dark
++ https://github.com/Achuan-2/pandoc_word_template
++ https://zhuanlan.zhihu.com/p/672376543?theme=dark
